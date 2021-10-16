@@ -1,3 +1,5 @@
+Git Lab tutorials date:  10-14-2021
+Github account setup: 8-28-2020
 1.)
 colli@DESKTOP-DOC4NJR MINGW64 ~/Desktop/GIT/assignment2 (master)
 $ git push
