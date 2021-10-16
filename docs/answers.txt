@@ -1,1 +1,58 @@
+1.)
+colli@DESKTOP-DOC4NJR MINGW64 ~/Desktop/GIT/assignment2 (master)
+$ git push
+Enumerating objects: 9, done.
+Counting objects: 100% (9/9), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (5/5), done.
+Writing objects: 100% (7/7), 928 bytes | 928.00 KiB/s, done.
+Total 7 (delta 2), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (2/2), completed with 1 local object.
+To https://github.com/burnettck/assignment2.git
+   f4975e5..712b3ff  master -> master
 
+2.)
+There have been 9 commits at this point.
+git shortlog
+ 
+3.)
+It was last edited by me on Friday October 15th 2021.
+gathered using git log --README.md
+
+4.)
+You can experiment with code in a contained area, isolated from changes that other people may also
+be making in the repository. You can also create branches to fix problems without worrying about messing
+up the main branch.
+
+5.)
+git status shows the current state of the directory, allowing you to see changes that have been staged.
+git status doesn't show you the commit history.
+
+git log shows the project history alongside specific commits
+
+6.)
+git log Vehicle.h
+
+7.)
+git log --grep="file"
+
+8.)
+
+Inheritance is when one class takes upon the methods and attributes of another class
+
+Polymorphism is when one interface can be used for different datatypes.
+
+Encapsulation is when data and functions that operate on it are grouped together.
+
+9.) In an Integration Manager workflow, each developer pushes to their own public repository. An integration
+manager then resolves conflicts before pushing to the blessed repository.
+
+In a dictator and lieutenants workflow, each developer pushes to an assigned lieutenant repository, where changes are merged.
+A dictator repository then merges lieutenant repoositories and resolves conflicts before pushing to the blessed repository.
+
+10.)
+A large team of 100 developers would benefit greatly from using a dictator and lietenants workflow rather than a centralized
+workflow.
+The developers wouldn't have to worry about conflict resolution, as each lieutenant respository would be able to handle any that 
+arise. The dictator would then be able to merge that into the blessed repository. This would allow the team to stick to their
+respective tasks and would avoid the problem of all 100 developers trying to commit at the same time.
